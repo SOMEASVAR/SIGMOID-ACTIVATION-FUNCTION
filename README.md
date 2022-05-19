@@ -16,7 +16,7 @@ Sigmoid Activation Function is commonly used for models where we have to predict
 
 The function is differentiable and provides a smooth gradient, i.e., preventing jumps in output values. This is represented by an S-shape of the sigmoid activation function.
 
-The limitations of sigmoid function are :
+## The limitations of sigmoid function are :
 The derivative of the function is f'(x) = sigmoid(x)*(1-sigmoid(x)).
 
 The output of the logistic function is not symmetric around zero. So the output of all the neurons will be of the same sign. This makes the training of the neural network more difficult and unstable.
